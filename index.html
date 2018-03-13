@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Supporting sustainable publishing and consuming of live Linked Time Series Streams</title>
+    <link rel="stylesheet" href="media/css/do.css" media="all" />
+    <link rel="stylesheet" href="media/css/lncs.css" media="all" title="LNCS" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+    <script src="scripts/simplerdf.js"></script>
+    <script src="scripts/medium-editor.min.js"></script>
+    <script src="scripts/medium-editor-tables.min.js"></script>
+    <script src="scripts/do.js"></script>
+</head>
+
+<body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#"
+    typeof="schema:CreativeWork sioc:Post prov:Entity">
+    <main>
+        <article about="" typeof="schema:ScholarlyArticle">
+            <h1 property="schema:name">Supporting sustainable publishing and consuming of live Linked Time Series Streams</h1>
+
+            <div id="authors">
+                <dl id="author-name">
+                    <dt>Authors</dt>
+                    <dd id="author-1"><span about="" rel="schema:creator schema:publisher schema:contributor schema:author"><a about="#Julian-Rojas" typeof="schema:Person" rel="schema:url" property="schema:name" href="#">Julián Andrés Rojas Meléndez</a></span><sup><a href="#author-org-1">1</a></sup></dd>
+                    <dd id="author-2"><span about="" rel="schema:contributor"><a about="#Gayane-Sedrakyan" typeof="schema:Person" rel="schema:url" property="schema:name" href="#">Gayane Sedrakyan</a></span><sup><a href="#author-org-1">1</a></sup></dd>
+                    <dd id="author-3"><span about="" rel="schema:contributor"><a about="#https://pietercolpaert.be/#me" typeof="schema:Person" rel="schema:url" property="schema:name" href="https://pietercolpaert.be/#me">Pieter Colpaert</a></span><sup><a href="#author-org-1">1</a></sup></dd>
+                    <dd id="author-4"><span about="" rel="schema:contributor"><a about="#https://ruben.verborgh.org/profile/#me" typeof="schema:Person" rel="schema:url" property="schema:name" href="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a></span><sup><a href="#author-org-1">1</a></sup></dd>
+                </dl>
+
+                <ul id="author-org">
+                    <li id="author-org-1"><sup>1</sup><a about="#IDLab" typeof="schema:Organization" property="schema:name" rel="schema:url" href="https://www.ugent.be/ea/idlab/en">IDLab, Department of Electronics and Information Systems, Ghent University - imec</a></li>
+                </ul>
+
+                <ul id="author-email">
+                    <li id="author-email-a"><a about="#Julian-Rojas" rel="schema:email" href="mailto:julianandres.rojasmelendez@ugent.be">julianandres.rojasmelendez@ugent.be</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <section id="abstract">
+                    <h2>Abstract</h2>
+                    <div datatype="rdf:HTML" property="schema:abstract">
+                        <p>The road to publishing public streaming data on the Web is paved with trade-offs that determine its viability. 
+                            The cost of unrestricted query answering on top of data streams, may not be affordable for all data publishers. 
+                            Therefore, public streams needs to be funded in a sustainable fashion to remain online. In this paper we introduce 
+                            an overview of possible query answering features for live time series as multidimensional interfaces. For example, 
+                            from a live parking availability data stream, pre-calculated time constrained statistical indicators or geographically 
+                            classified data can be provided to clients on demand. Furthermore, we demonstrate the initial developments of a Linked 
+                            Time Series server that supports such features through an extensible modular architecture. Benchmarking the costs associated 
+                            to each of these features allows to weigh the trade-offs inherent to publishing live time series and establishes the foundations 
+                            to create a decentralized and sustainable ecosystem for live data streams on the Web.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="keywords">
+                    <h2>Keywords</h2>
+                    <div>
+                        <ul>
+                            <li>Semantic Web, Open Linked Data, Linked Data Fragments, Time Series, Data Streams</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="introduction" rel="schema:hasPart" resource="#introduction">
+                    <h2 property="schema:name">Introduction</h2>
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>The development of Internet of Things technologies has fostered the creation of live data streams in 
+                            multiple domains. Specifically in the public domain, examples of such data streams can be found as sensor 
+                            observations about air quality, noise level, street occupancy, vacant parking spaces, temperature, river water level, 
+                            wind speed, state of public lighting systems, traffic lights, among others. Also, in Europe thanks to the European Public 
+                            Sector Information directive<sup><a href="#note-1">1</a></sup>, public authorities are required to publish such data in an 
+                            open fashion on the Web. This raises new challenges for data publishers as they cannot anticipate the amount of users or 
+                            type of queries required on the Web, and might not be able to afford expensive infrastructures, required to maintain availability 
+                            and scalability.
+                        </p>
+
+                        <p>Studying the trade-offs introduced by Linked Data Fragments [<a class="ref" href="#ref-1">1</a>] to publish data streams on the Web, 
+                            helps to reduce the server costs by transferring query answering related tasks to clients. This requires clients to implement the 
+                            logic to answer a given query, increasing their complexity and the time required to process the data on the client side. Anticipating 
+                            this, data publishers may provide multidimensional interfaces [<a class="ref" href="#ref-2">2</a>] containing pre-processed data,
+                            relevant for answering common queries and offer them as a service that could benefit clients by reducing query response times and
+                            implementation
+                        </p>
+
+                        <aside class="note">
+                            <p id="note-1">
+                                <sup>1</sup>
+                                <a href="https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information">
+                                    https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information
+                                </a>
+                            </p>
+                        </aside>
+
+                        <p class="pagebreak">complexity, without limiting query flexibility. The type of interfaces to offer depend directly on the type of data and the related use-cases. Such an approach may help to create 
+                            revenue sources for data publishers while contributing the sustainability of the Open Data streams on the Web.
+                        </p>
+
+                        <p>In this demo paper we present an overview of possible multidimensional interfaces, containing query answering features, that may be 
+                            implemented and offered as a service on different Open Stream data use cases. Furthermore, we introduce the initial developments of a 
+                            Live Time Series server that support the creation of such interfaces through an extensible modular architecture.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="related_work" rel="schema:hasPart" resource="#related_work">
+                    <h2 property="schema:name">Related Work</h2>
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>RDF Stream Processing (RSP) [<a class="ref" href="#ref-3">3</a>] defines a framework for continuous query answering over data streams. 
+                            RSP engines can take into account one or more RDF streams to answer queries which results will be computed at several time instants to 
+                            consider new available data on the streams. TPF-QS [<a class="ref" href="#ref-4">4</a>] was introduced as an alternative to server-side 
+                            RSP engines. with the goal of making RDF stream server-side publishing possible at a low cost, with a client-side RSP engine. 
+                            In this approach, several time-annotation techniques were investigated, of which annotation using named graphs caused the least overhead. 
+                            The results however showed that this approach has scalability issues when querying historic data.
+                        </p>
+
+                        <p>The work presented in [<a class="ref" href="#ref-5">5</a>] raises the fundamental question of the sustainability of the Web of data and 
+                            introduces a marketplace for federate query answering, giving clients the option to decide from which sources do they want to retrieve 
+                            the data needed to answer a certain query and who will process the data to obtain that answer. The cost of the answer(s) of a given query 
+                            can be derived from the data and its sources. However determining what is the cost of computing such answer(s) is still an open issue. 
+                            In this direction, benchmarking mechanisms could be used to determine it in terms of computational costs. For instance, the solution 
+                            proposed in the HOBBIT project [<a class="ref" href="#ref-6">6</a>] which provides a generic platform for benchmarking question/answering 
+                            processes centered around the challenges of data heterogeneity and scalability could be used to determine the costs associated to 
+                            answering a certain query. 
+                        </p>
+                    </div>
+                </section>
+
+                <section id="multidimensional_interfaces" rel="schema:hasPart" resource="#multidimensional_interfaces">
+                    <h2 property="schema:name">Multidimensional Interfaces</h2>
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>Multidimensional Interfaces [<a class="ref" href="#ref-2">2</a>] were introduced for generically fragmenting data with a specific order 
+                            and publishing theseAs shown in Fig 1, the server is composed by three main modules: fragments in an interface-level index. These interfaces can make multidimensional ordinal data automatically 
+                            discoverable and consumable by clients using hypermedia controls. The goal of these interfaces is to raise the server expressivity while 
+                            maintaining low server costs. A vocabulary<sup><a href="#note-2">2</a></sup> to formally describe multidimensional interfaces was 
+                            introduced. It defines the concepts of <em>Range Fragments</em> and <em>Range Gates</em>. A <em>Range Fragment</em> is a Linked Data 
+                            Fragment that specifies an ordinal interval for a predefined fragmentation strategy. A <em>Range Gate</em> is a Linked Data interface 
+                            which exposes a set of Range Fragments. Using these concepts it is possible to define different fragmentation strategies that can be 
+                            exposed as multidimensional interfaces.
+                        </p>
+                        <aside class="note">
+                            <p id="note-2">
+                                <sup>2</sup>
+                                <a href="http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate">
+                                    http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate
+                                </a>
+                            </p>
+                        </aside>
+
+                        <p class="pagebreak">In a general sense, for live time series originated from sensor observations it is possible to define ranges as follows:
+                        </p>
+                        
+                        <section style="margin-top: 12px" id="time_ranges" rel="schema:hasPart" resource="#time_ranges">
+                            <h4 property="schema:name">Time Ranges</h4>
+                            <div datatype="rdf:HTML" property="schema:description">
+                                <p>Time constrained intervals can be used to create Range Fragments or summaries that compute statistical variables. 
+                                    For example to expose average values of measurements at hour, day, week, month and year level.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="geospatial_ranges" rel="schema:hasPart" resource="#geospatial_ranges">
+                            <h4 property="schema:name">Geospatial Ranges</h4>
+                            <div datatype="rdf:HTML" property="schema:description">
+                                <p>Sensors locations can be used to create <em>Range Fragments</em> that comprises predefined geographical areas. 
+                                    For example, street occupation can be given on a neighborhood, city or country level.
+                                </p>
+                            </div>
+                        </section>
+
+                        <p>Depending on the type of data and the specifical use case other type of fragmentations and even combinations of them could be defined.</p>
+                    </div>
+                </section>
+
+                <section id="live_time_series_server" rel="schema:hasPart" resource="#live_time_series_server">
+                    <h2 property="schema:name">Live Time Series Server</h2>
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>The Live Time Series Server is an ongoing implementation that aims on providing a cost efficient interface for Open Stream data publishing. 
+                            Through an extensible modular architecture we allow data publishers to define multidimensional interfaces to provide query answering 
+                            functionalities on top of their data. The code is available in a Github repository<sup><a href="#note-3">3</a></sup>, along with the 
+                            instructions of how to test it.
+                        </p>
+                        <figure>
+                            <img height="304" src="media/images/fig1.png" width="400" />
+                            <figcaption>Modular architecture of the Live Time Series server</figcaption>
+                        </figure>
+
+                        <p>As shown in Fig 1, the server is composed by three main modules:</p>
+
+                        <section style="margin-top: 12px" id="data_event_manager" rel="schema:hasPart" resource="#data_event_manager">
+                            <h4 property="schema:name">Data Event Manager</h4>
+                            <div datatype="rdf:HTML" property="schema:description">
+                                <p>This module receives RDF stream updates and fires an event to notify the availability of new data.</p>
+                            </div>
+                        </section>
+
+                        <aside class="note">
+                            <p id="note-3">
+                                <sup>3</sup><a href="https://github.com/linkedtimeseries/timeseries-server">https://github.com/linkedtimeseries/timeseries-server</a>
+                            </p>
+                        </aside>
+
+                        <section id="communications_manager" rel="schema:hasPart" resource="#communications_manager">
+                            <h4 property="schema:name">Communications Manager</h4>
+                            <div datatype="rdf:HTML" property="schema:description">
+                                <p>Handle the communication between the Multidimensional Interfaces and the clients. It can expose the data as Range Fragments, 
+                                    created by each interface through HTTP endpoints or by Websocket channels for publish/subscribe communication.
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="multidimensional_interfaces" rel="schema:hasPart" resource="#multidimensional_interfaces">
+                            <h4 property="schema:name">Multidimensional Interfaces</h4>
+                            <div datatype="rdf:HTML" property="schema:description">
+                                <p>The interfaces expose the data stream according to its predefined logic. Each interface subscribes to a data event with the 
+                                    Data Event Manager and perform a new calculation with each update with the exception of the Raw Interface, which exposes 
+                                    the data as it is received. The data can be exposed as <em>Range Fragments</em> through HTTP or pushed to subscribed clients 
+                                    through Websocket channels. 
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <section id="conclusions_and_future_work" rel="schema:hasPart" resource="#conclusions_and_future_work">
+                    <h2 property="schema:name">Conclusions and Future Work</h2>
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>In this demo paper we introduced Live Time Series server which provides a Linked Data fragments based interface for publishing RDF 
+                            streams on the Web. Furthermore, by integrating the concept of multidimensional interfaces data publishers can define modules that 
+                            perform predefined calculations over the data that suit a given use case to increase the expressivity of the server while keeping 
+                            its costs low, maintaining full query flexibility and reducing clients implementation complexity and data processing time to obtain 
+                            a query answer. Defining a business model to create revenue from these multidimensional interfaces may help to create a sustainable 
+                            economy around data streams on the Web. For future work we plan to extend this approach by defining a mechanism that allows to calculate
+                            computational cost of multidimensional interfaces through benchmarking processes, in order to help determining their economical cost. 
+                            Also by integrating mapping capabilities in order to work with non RDF data streams.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="acknowledgements">
+                    <h2>Acknowledgments</h2>
+                    <div>
+                        <p>This work has been supported by HOBBIT H2020 project (GA no 688227).</p>
+                    </div>
+                </section>
+
+                <section id="references">
+                    <h2>References</h2>
+                    <div>
+                        <ol>
+                            <li id="ref-1" property="schema:citation">R. Verborgh, M. V. Sande, O. Hartig, J. V. Herwegen, L. D. Vocht, B. D. Meester, G. Haesendonck, 
+                                and P. Colpaert. Triple pattern fragments: A low-cost knowledge graph interface for the web. Web Semantics: Science, Services and 
+                                Agents on the World Wide Web, 37-38:184 – 206, 2016. The Semantic Web – ISWC 2014 Lecture Notes in Computer Science. 
+                                180–196 (2014).</li>
+                            <li id="ref-2" property="schema:citation">R. Taelman, P. Colpaert, R. Verborgh, P. Colpaert, and E. Mannens. Multidimensional interfaces 
+                                for selecting data within ordinal ranges. In Proceedings of the 7th International Workshop on Consuming Linked Data, Oct. 2016.</li>
+                            <li id="ref-3" property="schema:citation">Dell’Aglio, D., Della Valle, E., van Harmelen, F., Bernstein, A.: Stream reasoning: 
+                                A survey and outlook. Data Science 1(1–2), 59–83 (2017).</li>
+                            <li id="ref-4" property="schema:citation">R. Taelman, R. Verborgh, P. Colpaert, and E. Mannens. Continuous client-side query evaluation 
+                                over dynamic linked data. In The Semantic Web: ESWC 2016 Satellite Events, Heraklion, Crete, Greece, May 29 – June 2, 2016, 
+                                Revised Selected Papers, pages 273–289. Springer International Publishing, May 2016.</li>
+                            <li id="ref-5" property="schema:citation">T. Grubenmann, D. Dell’Aglio, A. Bernstein, D. Moor, and S. Seuken. Decentralizing the 
+                                semantic web: Who will pay to realize it? In Proceedings of the Workshop on Decentralizing the Semantic Web 2017 co-located with 
+                                16th International Semantic Web Conference (ISWC 2017), 2017.</li>
+                            <li id="ref-6" property="schema:citation">HOBBIT Consortium, 2016. HOBBIT Project (GA no. 688227). [Online] [Accessed 03 March 2018].</li>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+</body>
+
+</html>
