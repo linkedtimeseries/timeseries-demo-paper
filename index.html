@@ -11,6 +11,7 @@
     <script src="scripts/medium-editor.min.js"></script>
     <script src="scripts/medium-editor-tables.min.js"></script>
     <script src="scripts/do.js"></script>
+    <script src="scripts/footnotes.js"></script>
 </head>
 
 <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#"
@@ -70,7 +71,7 @@
                         <p>The development of Internet of Things technologies has fostered the creation of live data streams in multiple domains. Specifically 
                             in the public domain, examples of such data streams can be found as sensor observations about air quality, noise level, 
                             street occupancy, vacant parking spaces, temperature, river water level, wind speed, state of public lighting systems, traffic lights, 
-                            among others. Furthermore, in Europe thanks to the European Public Sector Information directive<sup><a href="#note-1">1</a></sup>, 
+                            among others. Furthermore, in Europe thanks to the European Public Sector Information directive<sup><a class="footnote" href="#note-1">1</a></sup>, 
                             public authorities are required to publish such data in an open fashion on the Web. This raises new challenges for data publishers 
                             as they cannot anticipate the amount of users or type of queries required on the Web, and might not be able to afford expensive 
                             infrastructures, required to maintain availability and scalability.
@@ -86,10 +87,7 @@
 
                         <aside class="note">
                             <p id="note-1">
-                                <sup>1</sup>
-                                <a href="https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information">
-                                    https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information
-                                </a>
+                                <sup>1</sup><a target="_blank" href="https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information">https://ec.europa.eu/digital-single-market/en/european-legislation-reuse-public-sector-information</a>
                             </p>
                         </aside>
 
@@ -117,8 +115,8 @@
                             historic data.
                         </p>
 
-                        <p>The work presented in [<a class="ref" href="#ref-5">5</a>] raises the fundamental question of the sustainability of the Web of data 
-                            and introduces a marketplace for federated query answering, giving clients the option to decide from which sources do they want to 
+                        <p>The work presented in [<a class="ref" href="#ref-5">5</a>] raises the fundamental question of the sustainability of the Web of data  
+                            and introduces a marketplace for federated query answering, giving clients the option to decide from which sources do they want to  
                             retrieve the data needed to answer a certain query and who will process the data to obtain that answer. The cost of the answer(s) of 
                             a given query can be derived from the cost of hosting the related data. However determining what is the cost of computing such 
                             answer(s) is still an open issue. In this direction, benchmarking mechanisms could be used to determine it in terms of computational 
@@ -135,7 +133,7 @@
                         <p>Multidimensional Interfaces [<a class="ref" href="#ref-2">2</a>] were introduced for generically fragmenting data with a specific order 
                             and publishing these fragments in an interface-level index. These interfaces can make multidimensional ordinal data automatically 
                             discoverable and consumable by clients using hypermedia controls. The goal of these interfaces is to raise the server expressivity 
-                            while maintaining low server costs. A vocabulary<sup><a href="#note-2">2</a></sup> to formally describe multidimensional interfaces was 
+                            while maintaining low server costs. A vocabulary<sup><a class="footnote" href="#note-2">2</a></sup> to formally describe multidimensional interfaces was 
                             introduced. It defines the concepts of <em>Range Fragments</em> and <em>Range Gates</em>. A <em>Range Fragment</em> is a Linked Data 
                             Fragment that specifies an ordinal interval for a predefined fragmentation strategy. A <em>Range Gate</em> is a Linked Data interface 
                             which exposes a set of Range Fragments. Using these concepts it is possible to define different fragmentation strategies that can be 
@@ -143,10 +141,7 @@
                         </p>
                         <aside class="note">
                             <p id="note-2">
-                                <sup>2</sup>
-                                <a href="http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate">
-                                    http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate
-                                </a>
+                                <sup>2</sup><a target="_blank" href="http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate">http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate</a>
                             </p>
                         </aside>
 
@@ -182,7 +177,7 @@
                     <div datatype="rdf:HTML" property="schema:description">
                         <p>The Live Time Series Server is an ongoing implementation that aims on providing a cost efficient interface for Open Stream data publishing. 
                             Through an extensible modular architecture we allow data publishers to define multidimensional interfaces to provide query answering 
-                            functionalities on top of their data. The code is available in a Github repository<sup><a href="#note-3">3</a></sup>, along with the 
+                            functionalities on top of their data. The code is available in a Github repository<sup><a class="footnote" href="#note-3">3</a></sup>, along with the 
                             instructions of how to test it.
                         </p>
                         <figure>
@@ -201,7 +196,7 @@
 
                         <aside class="note">
                             <p id="note-3">
-                                <sup>3</sup><a href="https://github.com/linkedtimeseries/timeseries-server">https://github.com/linkedtimeseries/timeseries-server</a>
+                                <sup>3</sup><a href="https://github.com/linkedtimeseries/timeseries-server" target="_blank">https://github.com/linkedtimeseries/timeseries-server</a>
                             </p>
                         </aside>
 
@@ -277,5 +272,4 @@
         </article>
     </main>
 </body>
-
 </html>
